@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Activity from "./pages/Activity";
 import Devices from "./pages/Devices";
 import Settings from "./pages/Settings";
+import AccessRequests from "./pages/AccessRequests";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/activity" element={<Activity />} />
           <Route path="/devices" element={<Devices />} />
+          <Route path="/access-requests" element={<AccessRequests />} />
           <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

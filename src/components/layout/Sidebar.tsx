@@ -1,4 +1,4 @@
-import { LayoutDashboard, Activity, Smartphone, Settings, LogOut } from "lucide-react";
+import { LayoutDashboard, Activity, Smartphone, Settings, LogOut, CheckSquare } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -7,6 +7,7 @@ const menuItems = [
   { icon: LayoutDashboard, label: "Tổng quan", path: "/dashboard" },
   { icon: Activity, label: "Hoạt động", path: "/activity" },
   { icon: Smartphone, label: "Thiết bị", path: "/devices" },
+  { icon: CheckSquare, label: "Duyệt quyền truy cập", path: "/access-requests" },
   { icon: Settings, label: "Cấu hình", path: "/settings" },
 ];
 
