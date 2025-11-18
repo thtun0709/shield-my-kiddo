@@ -9,9 +9,9 @@ import { Slider } from "@/components/ui/slider";
 import { useToast } from "@/hooks/use-toast";
 
 const Settings = () => {
-  const [parentName, setParentName] = useState("John Smith");
-  const [parentEmail, setParentEmail] = useState("john.smith@example.com");
-  const [childName, setChildName] = useState("Emma");
+  const [parentName, setParentName] = useState("Phụ Huynh");
+  const [parentEmail, setParentEmail] = useState("PhuHuynh@example.com");
+  const [childName, setChildName] = useState("Thanh Tùng");
   const [safeMode, setSafeMode] = useState(true);
   const [screenTimeLimit, setScreenTimeLimit] = useState([4]);
   const [contentFilterLevel, setContentFilterLevel] = useState([2]);
