@@ -15,8 +15,8 @@ import {
 import { useToast } from "@/hooks/use-toast";
 
 const mockDevices = [
-  { id: 1, child: "Emma", device: "iPhone 13", type: "phone", status: "đã được kích hoạt", lastSync: "2 phút trước" },
-  { id: 2, child: "Emma", device: "iPad Air", type: "tablet", status: "đã được kích hoạt", lastSync: "15 phút trước" },
+  { id: 1, child: "Thanh Tùng", device: "iPhone 13", type: "phone", status: "đã được kích hoạt", lastSync: "2 phút trước" },
+  { id: 2, child: "Thanh Tùng", device: "iPad Air", type: "tablet", status: "đã được kích hoạt", lastSync: "15 phút trước" },
 ];
 
 const Devices = () => {
